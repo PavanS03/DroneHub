@@ -1,0 +1,32 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🌌 BASE GLASS (dark card) -->
+    <item>
+        <shape>
+            <solid android:color="#1F2933"/>
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+
+    <!-- ✨ INNER LIGHT GRADIENT (on top, using only accent‑colored glow) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#4058A6FF"
+                android:endColor="@android:color/transparent"
+                android:angle="270"/>
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+
+    <!-- 🔵 NEON BORDER (accent blue stroke) -->
+    <item>
+        <shape>
+            <stroke
+                android:width="1.5dp"
+                android:color="#58A6FF"/>
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+
+</layer-list>

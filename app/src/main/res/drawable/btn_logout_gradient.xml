@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🔥 PREMIUM LOGOUT BUTTON GRADIENT -->
+    <gradient
+        android:angle="45"
+        android:startColor="@color/accent_blue"
+        android:centerColor="@color/electric_blue"
+        android:endColor="@color/accent_cyan"
+        android:type="linear"
+        android:centerY="0.5"
+        android:centerX="0.5"/>
+
+    <!-- Luxury Corner Radius -->
+    <corners android:radius="24dp"/>
+
+    <!-- Subtle Inner Glow -->
+    <stroke
+        android:width="1dp"
+        android:color="@color/accent_glow"
+        android:dashWidth="4dp"
+        android:dashGap="4dp"/>
+
+</shape>

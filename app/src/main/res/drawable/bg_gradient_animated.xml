@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <!-- 💎 SOFT BLUE -->
+    <item android:duration="5000">
+        <shape>
+            <gradient
+                android:startColor="#E3F2FD"
+                android:centerColor="#BBDEFB"
+                android:endColor="#90CAF9"
+                android:angle="135"/>
+        </shape>
+    </item>
+
+    <!-- 🧊 CYAN GLASS -->
+    <item android:duration="5000">
+        <shape>
+            <gradient
+                android:startColor="#E0F7FA"
+                android:centerColor="#B2EBF2"
+                android:endColor="#80DEEA"
+                android:angle="135"/>
+        </shape>
+    </item>
+
+    <!-- ✨ WHITE PREMIUM -->
+    <item android:duration="5000">
+        <shape>
+            <gradient
+                android:startColor="#FFFFFF"
+                android:centerColor="#F1F8FF"
+                android:endColor="#E3F2FD"
+                android:angle="135"/>
+        </shape>
+    </item>
+
+</animation-list>

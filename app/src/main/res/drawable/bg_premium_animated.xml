@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ================= ANIMATED BASE ================= -->
+    <item android:drawable="@drawable/bg_gradient_animated"/>
+
+    <!-- ================= TOP BLUE GLOW ================= -->
+    <item android:top="-120dp">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#335B8CFF"
+                android:endColor="#00000000"
+                android:type="radial"
+                android:gradientRadius="400dp"/>
+        </shape>
+    </item>
+
+    <!-- ================= PURPLE GLOW ================= -->
+    <item android:bottom="-140dp" android:right="-80dp">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#339F7AEA"
+                android:endColor="#00000000"
+                android:type="radial"
+                android:gradientRadius="450dp"/>
+        </shape>
+    </item>
+
+    <!-- ================= CYAN GLOW ================= -->
+    <item android:left="-100dp" android:top="200dp">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#334FD1C5"
+                android:endColor="#00000000"
+                android:type="radial"
+                android:gradientRadius="350dp"/>
+        </shape>
+    </item>
+
+    <!-- ================= LIGHT OVERLAY ================= -->
+    <item>
+        <shape>
+            <solid android:color="#08FFFFFF"/>
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroneHub</string>
+    <string name="select_role">Select Role</string>
+    <string name="customer">Customer</string>
+    <string name="admin">Admin</string>
+    <string name="operator">Operator</string>
+    <string name="register">Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user_register">New User? Register here</string>
+
+    <string name="welcome_back">Welcome Back</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="placeholder_name">Enter your full name</string>
+    <string name="placeholder_email">Enter your email</string>
+    <string name="placeholder_password">Enter your password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="placeholder_confirm_password">Confirm your password</string>
+    <string name="loading">Loading…</string>
+    <string name="menu">Menu</string>
+    <string name="profile">Profile</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="success_generic">Success!</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🌌 1. BASE DEEP SPACE GRADIENT -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#0B1220"
+                android:centerColor="#111A2E"
+                android:endColor="#16213E"
+                android:angle="135"/>
+        </shape>
+    </item>
+
+    <!-- 🌈 2. SUBTLE COLOR AMBIENT GLOW -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#1A5B8CFF"
+                android:centerColor="#144FD1C5"
+                android:endColor="#129F7AEA"
+                android:angle="45"/>
+        </shape>
+    </item>
+
+    <!-- ✨ 3. TOP LIGHT (GLASS REFLECTION EFFECT) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#40FFFFFF"
+                android:endColor="@android:color/transparent"
+                android:angle="270"/>
+        </shape>
+    </item>
+
+    <!-- 🔵 4. LEFT SIDE SOFT GLOW -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#335B8CFF"
+                android:endColor="@android:color/transparent"
+                android:angle="0"/>
+        </shape>
+    </item>
+
+    <!-- 🟣 5. RIGHT SIDE PURPLE GLOW -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@android:color/transparent"
+                android:endColor="#339F7AEA"
+                android:angle="180"/>
+        </shape>
+    </item>
+
+    <!-- 🔥 6. BOTTOM DEPTH SHADOW -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@android:color/transparent"
+                android:endColor="#66000000"
+                android:angle="90"/>
+        </shape>
+    </item>
+
+    <!-- 🌫 7. CENTER FOCUS (SOFT VIGNETTE EFFECT) -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="600dp"
+                android:centerColor="#00000000"
+                android:startColor="#22000000"
+                android:endColor="#66000000"/>
+        </shape>
+    </item>
+
+</layer-list>

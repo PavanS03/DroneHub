@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🌌 1. COSMIC BASE (DEEP EMERALD SPACE) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#08121A"
+                android:centerColor="#0F1A23"
+                android:endColor="#1A2333"
+                android:angle="145"/>
+        </shape>
+    </item>
+
+    <!-- 💎 2. DIAMOND SAPPHIRE AMBIENT (PREMIUM BLUE) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#125B8CFF"
+                android:centerColor="#0A7DD3FC"
+                android:endColor="#089F7AEA"
+                android:angle="35"/>
+        </shape>
+    </item>
+
+    <!-- ✨ 3. PLATINUM TOP GLOW (LUXURY WHITE) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#55EAF2FF"
+                android:centerColor="#33F8FAFF"
+                android:endColor="@android:color/transparent"
+                android:angle="275"/>
+        </shape>
+    </item>
+
+    <!-- 🟢 4. EMERALD LEFT GLOW (RICH GREEN) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#224FD1C5"
+                android:centerColor="#1A7DD3FC"
+                android:endColor="@android:color/transparent"
+                android:angle="15"/>
+        </shape>
+    </item>
+
+    <!-- 🟣 5. AMETHYST RIGHT GLOW (ROYAL PURPLE) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@android:color/transparent"
+                android:centerColor="#229F7AEA"
+                android:endColor="#155B8CFF"
+                android:angle="165"/>
+        </shape>
+    </item>
+
+    <!-- 💫 6. DIAMOND CENTER FOCUS (3D DEPTH) -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="700dp"
+                android:centerColor="#22000000"
+                android:startColor="#00000000"
+                android:endColor="#44000000"/>
+        </shape>
+    </item>
+
+    <!-- 🔥 7. GOLDEN HORIZON BOTTOM (LUXURY ORANGE) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@android:color/transparent"
+                android:centerColor="#15FBBF24"
+                android:endColor="#22FF8A65"
+                android:angle="85"/>
+        </shape>
+    </item>
+
+    <!-- 🌟 8. SUBTLE STARDUST SPARKLE (PREMIUM TOUCH) -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="1200dp"
+                android:centerColor="#08FFFFFF"
+                android:startColor="#00000000"
+                android:endColor="#00000000"/>
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="18dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="8dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#33FFFFFF"
+    app:cardBackgroundColor="#1ADCA3A3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/tvOrderInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="2dp"
+            android:text="Order Info"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:textSize="11sp"
+            android:textColor="@android:color/white"
+            android:text="Pending"
+            android:background="@drawable/bg_glass_card"/>
+
+        <TextView
+            android:id="@+id/tvAssignedOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operator: Not Assigned"
+            android:textColor="#B3FFFFFF"
+            android:textSize="12sp"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/tvOperatorStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: --"
+            android:textSize="11sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="4dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:background="@android:color/transparent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnApprove"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Approve"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#4CAF50"
+                app:cornerRadius="14dp"/>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReject"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Reject"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#F44336"
+                app:cornerRadius="14dp"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAssignOperator"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Assign Operator"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/electric_blue"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnReassignOperator"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Reassign Operator"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#FF9800"
+            android:layout_marginTop="6dp"
+            android:visibility="gone"
+            app:cornerRadius="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnConfirmCompletion"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Confirm Completion"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#009688"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            app:cornerRadius="16dp"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

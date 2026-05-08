@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DroneHub"
+        android:roundIcon="@drawable/ic_dronehub"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AeroShip">
+        <activity
+            android:name=".activities.ReceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FinalPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CustomerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SectorSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DroneLevelSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DroneDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PlaceOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BookingSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BookingStatuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BookingDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OrderHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TrackDroneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DeliveryStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UserSupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminPaymentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminSupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ManageOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ManageOperatorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ManageSectorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ManageDronesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AssignDroneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UserManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UserOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ManageDroneLevelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminSectorLevelSelectionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.OperatorDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OperatorMissionDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OperatorEarningsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OperatorMissionsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.RatingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UserFinalPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.QRPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PaymentProofActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminPaymentApprovalActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

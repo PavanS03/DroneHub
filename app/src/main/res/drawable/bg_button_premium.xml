@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🔒 DISABLED STATE -->
+    <item android:state_enabled="false">
+        <shape>
+            <gradient
+                android:startColor="#445B8CFF"
+                android:endColor="#449F7AEA"
+                android:angle="45"/>
+            <corners android:radius="22dp"/>
+        </shape>
+    </item>
+
+    <!-- 👆 PRESSED STATE -->
+    <item android:state_pressed="true">
+        <layer-list>
+
+            <!-- 🔥 INNER DARK GRADIENT -->
+            <item>
+                <shape>
+                    <gradient
+                        android:startColor="#4A6CFF"
+                        android:endColor="#7E5CE6"
+                        android:angle="45"/>
+                    <corners android:radius="22dp"/>
+                </shape>
+            </item>
+
+            <!-- 🌟 INNER GLOW -->
+            <item android:left="2dp" android:right="2dp" android:top="2dp" android:bottom="2dp">
+                <shape>
+                    <gradient
+                        android:startColor="#33FFFFFF"
+                        android:endColor="@android:color/transparent"
+                        android:angle="270"/>
+                    <corners android:radius="20dp"/>
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+
+    <!-- ✅ DEFAULT STATE -->
+    <item>
+        <layer-list>
+
+            <!-- 🔥 MAIN GRADIENT -->
+            <item>
+                <shape>
+                    <gradient
+                        android:startColor="#5B8CFF"
+                        android:centerColor="#4FD1C5"
+                        android:endColor="#9F7AEA"
+                        android:angle="45"/>
+                    <corners android:radius="22dp"/>
+                </shape>
+            </item>
+
+            <!-- ✨ TOP LIGHT -->
+            <item>
+                <shape>
+                    <gradient
+                        android:startColor="#40FFFFFF"
+                        android:endColor="@android:color/transparent"
+                        android:angle="270"/>
+                    <corners android:radius="22dp"/>
+                </shape>
+            </item>
+
+            <!-- 🔥 BOTTOM DEPTH -->
+            <item>
+                <shape>
+                    <gradient
+                        android:startColor="@android:color/transparent"
+                        android:endColor="#33000000"
+                        android:angle="90"/>
+                    <corners android:radius="22dp"/>
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+
+</selector>

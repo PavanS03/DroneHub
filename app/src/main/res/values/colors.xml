@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_main">#5B8CFF</color>
+    <color name="primary_dark">#3B5BDB</color>
+    <color name="primary_light">#7DA6FF</color>
+
+    <color name="bg_main">#0B1220</color>
+    <color name="bg_secondary">#111A2E</color>
+    <color name="bg_card">#16213E</color>
+    <color name="bg_soft">#1A2747</color>
+
+    <color name="card">#16213E</color>
+    <color name="glass_card_color">#1A1A2E</color>
+    <color name="card_secondary">#1A1A2E</color>
+
+    <color name="glass_bg">#33FFFFFF</color>
+    <color name="glass_border">#22FFFFFF</color>
+    <color name="glass_hint">#1AFFFFFF</color>
+    <color name="glass_stroke">#40FFFFFF</color>
+
+    <color name="text_primary">#EAF2FF</color>
+    <color name="text_secondary">#9FB3C8</color>
+    <color name="text_hint">#7C8EA3</color>
+    <color name="text_disabled">#6B7A8F</color>
+
+    <color name="accent_blue">#5B8CFF</color>
+    <color name="accent_cyan">#4FD1C5</color>
+    <color name="accent_purple">#9F7AEA</color>
+    <color name="accent_glow">#7DD3FC</color>
+    <color name="glow">#7DD3FC</color>
+    <color name="electric_blue">#4AB9C9</color>
+    <color name="accent_orange">#FF6B35</color>
+    <color name="accent_green">#00E676</color>
+
+    <color name="gradient_start">#5B8CFF</color>
+    <color name="gradient_end">#9F7AEA</color>
+    <color name="gradient_cyan_start">#4FD1C5</color>
+    <color name="gradient_cyan_end">#7DF9FF</color>
+
+    <color name="success">#22C55E</color>
+    <color name="error">#F87171</color>
+    <color name="warning">#FBBF24</color>
+    <color name="info">#5B8CFF</color>
+
+    <color name="btn_primary">#5B8CFF</color>
+    <color name="btn_primary_text">#FFFFFF</color>
+    <color name="btn_pressed">#3B5BDB</color>
+    <color name="btn_disabled">#4A5A70</color>
+    <color name="btn_outline_normal">#5B8CFF</color>
+    <color name="btn_outline_border">#2A3A5F</color>
+
+    <color name="divider">#2A3A5F</color>
+    <color name="border_soft">#2A3A5F</color>
+
+    <color name="shadow_soft">#33000000</color>
+    <color name="shadow_medium">#44000000</color>
+    <color name="shadow_hard">#66000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bg_card_light">#1A244C</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="orange_accent_light">#FF8E60</color>
+    <color name="orange_accent">#FF6B35</color>
+    <color name="white_alpha_70">#B3FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="black_transparent">#80000000</color>
+
+    <color name="premium_gold">#FFD700</color>
+    <color name="navy_primary">#0A162D</color>
+    <color name="premium_gold_transparent">#80D2AF26</color>
+    <color name="nav_item_checked">#FFFFFF</color>
+    <color name="nav_item_unchecked">#B3FFFFFF</color>
+    <color name="accent_cyan_transparent">#334FD1C5</color>
+
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_500">#FF009688</color>
+    <color name="teal_600">#00897B</color>
+    <color name="teal_700">#00796B</color>
+
+    <color name="purple_500">#6200EE</color>
+    <color name="orange_500">#FF5722</color>
+    <color name="red_500">#F44336</color>
+    <color name="teal_400">#26A69A</color>
+    <color name="orange_600">#F4511E</color>
+
+    <color name="primary">#FF2196F3</color>
+    <color name="primary_variant">#FF1976D2</color>
+    <color name="secondary">#FF6200EE</color>
+    <color name="secondary_variant">#FF3700B3</color>
+    <color name="background">#FF121212</color>
+    <color name="surface">#FF1E1E1E</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+    <color name="on_surface">#FFEEEEEE</color>
+    <color name="on_background">#FFEEEEEE</color>
+    <color name="on_error">#FF000000</color>
+    <color name="status_bar">#FF000000</color>
+    <color name="navigation_bar">#FF000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="error_red">#F44336</color>
+    <color name="success_green">#4CAF50</color>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🌌 1. BASE GRADIENT (BALANCED) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#0B1220"
+                android:centerColor="#121C33"
+                android:endColor="#1A2A4A"
+                android:angle="135"/>
+        </shape>
+    </item>
+
+    <!-- 🌈 2. SOFT COLOR AMBIENT (REDUCED DARKNESS) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#145B8CFF"
+                android:centerColor="#104FD1C5"
+                android:endColor="#109F7AEA"
+                android:angle="45"/>
+        </shape>
+    </item>
+
+    <!-- ✨ 3. TOP LIGHT GLOW (GLASS EFFECT) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#33FFFFFF"
+                android:endColor="@android:color/transparent"
+                android:angle="270"/>
+        </shape>
+    </item>
+
+    <!-- 🔵 4. LEFT BLUE GLOW -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#225B8CFF"
+                android:endColor="@android:color/transparent"
+                android:angle="0"/>
+        </shape>
+    </item>
+
+    <!-- 🟣 5. RIGHT PURPLE GLOW -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@android:color/transparent"
+                android:endColor="#229F7AEA"
+                android:angle="180"/>
+        </shape>
+    </item>
+
+    <!-- 🌟 6. CENTER LIGHT FOCUS (IMPORTANT FIX) -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="500dp"
+                android:centerColor="#11000000"
+                android:startColor="#00000000"
+                android:endColor="#22000000"/>
+        </shape>
+    </item>
+
+</layer-list>

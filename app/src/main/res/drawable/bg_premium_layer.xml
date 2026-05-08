@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🔥 ANIMATED BASE -->
+    <item android:drawable="@drawable/bg_gradient_animated"/>
+
+    <!-- 💎 SOFT BLUE GLOW -->
+    <item android:top="-120dp">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#3390CAF9"
+                android:endColor="#00000000"
+                android:type="radial"
+                android:gradientRadius="500dp"/>
+        </shape>
+    </item>
+
+    <!-- 🧊 CYAN LIGHT -->
+    <item android:bottom="-120dp" android:right="-80dp">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#3380DEEA"
+                android:endColor="#00000000"
+                android:type="radial"
+                android:gradientRadius="500dp"/>
+        </shape>
+    </item>
+
+    <!-- ✨ WHITE LIGHT -->
+    <item android:left="-100dp" android:top="200dp">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#22FFFFFF"
+                android:endColor="#00000000"
+                android:type="radial"
+                android:gradientRadius="450dp"/>
+        </shape>
+    </item>
+
+    <!-- 🧊 GLASS OVERLAY -->
+    <item>
+        <shape>
+            <solid android:color="#08FFFFFF"/>
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573504373426",
+    "project_id": "aeroship-6138b",
+    "storage_bucket": "aeroship-6138b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573504373426:android:c0b3b4c29dd7d120c67fab",
+        "android_client_info": {
+          "package_name": "com.example.aeroship"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSmsh7ejQqHJ639VX9tFgqxHA7WE5WYdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

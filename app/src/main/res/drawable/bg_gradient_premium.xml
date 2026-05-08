@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🌌 OUTER GLOW (SOFT LIGHT) -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/accent_glow"
+                android:centerColor="#447DD3FC"
+                android:endColor="@android:color/transparent"
+                android:angle="270"/>
+            <corners android:radius="200dp"/>
+        </shape>
+    </item>
+
+    <!-- ✨ MID GLOW -->
+    <item
+        android:left="15dp"
+        android:right="15dp"
+        android:top="15dp"
+        android:bottom="15dp">
+
+        <shape>
+            <gradient
+                android:startColor="@color/accent_blue"
+                android:endColor="@android:color/transparent"
+                android:angle="270"/>
+            <corners android:radius="200dp"/>
+        </shape>
+    </item>
+
+    <!-- 🔥 INNER CORE (BRIGHT CENTER) -->
+    <item
+        android:left="35dp"
+        android:right="35dp"
+        android:top="35dp"
+        android:bottom="35dp">
+
+        <shape>
+            <solid android:color="@color/accent_blue"/>
+            <corners android:radius="200dp"/>
+        </shape>
+    </item>
+
+</layer-list>
