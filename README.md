@@ -185,6 +185,5 @@ cd DroneHub
 
 **GitHub:** https://github.com/PavanS03
 **GitHub:** https://github.com/pruthvirajs2704
-# 📄 𝗟𝗶𝗰𝗲𝗻𝘀𝗲
 
-This project is developed for **educational** and **real-world drone management implementation** purposes.
+
