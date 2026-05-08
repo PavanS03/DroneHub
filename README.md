@@ -187,3 +187,9 @@ cd DroneHub
 **GitHub:** https://github.com/pruthvirajs2704
 
 
+# LinkedIn 
+
+https://www.linkedin.com/in/pruthvirajs2704
+
+
+https://www.linkedin.com/in/pavan2901
